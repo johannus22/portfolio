@@ -11661,7 +11661,7 @@ pre .code {
           align-items: center;
   -webkit-transition: all, 0.3s;
   transition: all, 0.3s;
-  font-family: "Press Start 2P", system-ui;
+  font-family: "Tiny5", system-ui;
   font-weight: 200;
 }
 
@@ -11676,6 +11676,7 @@ pre .code {
   font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1300 - 300)));
   text-decoration: none;
   color: #fff;
+  font-family: "Press Start 2P", system-ui;
 }
 
 .custom-navbar .container {
@@ -12119,7 +12120,6 @@ pre .code {
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  max-width: 550px;
 }
 
 .header .header-content .header-title .up {
