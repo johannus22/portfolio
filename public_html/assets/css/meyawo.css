@@ -11728,7 +11728,7 @@ pre .code {
 }
 
 .custom-navbar .nav .item .link:hover, .custom-navbar .nav .item .link.active {
-  color: #695aa6;
+  color: var(--gray-dark);
 }
 
 .custom-navbar.affix {
