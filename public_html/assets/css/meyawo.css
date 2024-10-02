@@ -13,6 +13,9 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 @import url("https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,300i,400,400i,600,600i,700,700i");
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Press+Start+2P&family=Tiny5&display=swap');
 :root {
   --blue: #1e549f;
   --indigo: #695aa6;
@@ -11093,14 +11096,20 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 0 8px 0 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   font-weight: 500;
-  font-family: 'Baloo Paaji', cursive;
+  font-family: "JetBrains Mono", monospace;
+  color: #695aa6;
+}
+
+h1{
+  font-weight: 200;
+  font-family: "Tiny5", sans-serif;
   color: #695aa6;
 }
 
 .my-font {
-  font-family: 'Baloo Paaji', cursive;
+  font-family: "JetBrains Mono", monospace;
 }
 
 p {
@@ -11652,7 +11661,8 @@ pre .code {
           align-items: center;
   -webkit-transition: all, 0.3s;
   transition: all, 0.3s;
-  font-family: 'Baloo Paaji', cursive;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 200;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -12134,6 +12144,7 @@ pre .code {
   opacity: .8;
   margin-top: -10px;
   margin-bottom: 20px;
+  font-family: "Tiny5", sans-serif;
 }
 
 .header .header-content .btn {
